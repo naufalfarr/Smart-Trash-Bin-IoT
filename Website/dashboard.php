@@ -17,7 +17,7 @@ function generateQRCode($data, $outputFile)
 // NIM yang ingin ditampilkan sebagai QR Code
 $nimQR = isset($nim) ? $nim : '';
 
-// Path dan nama file untuk menyimpan QR Code
+// Path dan nama file untuk menyimpan QR 
 $outputFile = 'qrcodes/qrcode.png';
 
 // Memanggil fungsi untuk membuat QR Code
